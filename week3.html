@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Movies and Cities List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        ul.movie-list {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        ul.movie-list li {
+            padding: 5px 0;
+            font-size: 1.1em;
+        }
+        ul.movie-list li.favorite {
+            color: #ff6347;
+            font-weight: bold;
+            font-size: 1.3em;
+            text-decoration: underline;
+            background-color: red;
+        }
+
+        ol.city-list {
+            padding-left: 20px;
+        }
+        ol.city-list li:nth-child(1) {
+            color: #4682b4;
+            font-style: italic;
+        }
+        ol.city-list li:nth-child(2) {
+            color: #32cd32;
+            font-weight: bold;
+        }
+        ol.city-list li:nth-child(3) {
+            color: #ffa07a;
+            text-transform: uppercase;
+        }
+        ol.city-list li:nth-child(4) {
+            color: #ff4500;
+            font-size: 1.2em;
+        }
+        ol.city-list li:nth-child(5) {
+            color: #6a5acd;
+            background-color: #f0f8ff;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Favorite Movies and Cities</h1>
+    <h2>Favorite Movies</h2>
+    <ul class="movie-list">
+        <li>Inception</li>
+        <li>The Matrix</li>
+        <li class="favorite">Interstellar</li>
+        <li>Parasite</li>
+        <li>Shutter Island</li>
+    </ul>
+    <h2>Cities I'd Like to Visit</h2>
+    <ol class="city-list">
+        <li>Paris</li>
+        <li>Kyoto</li>
+        <li>New York</li>
+        <li>Sydney</li>
+        <li>Barcelona</li>
+    </ol>
+
+</body>
+</html>
